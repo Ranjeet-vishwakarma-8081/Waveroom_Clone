@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    *{
+        scrollbar-width: thin;
+        
+    }
+    ::-webkit-scrollbar {
+        width: 6px;
+        /* Width of the entire scrollbar */
+      }
+      
+      
+      ::-webkit-scrollbar-thumb {
+        background-color: #269dff;
+        /* Color of the thumb (the draggable part) */
+        border-radius: 16px;
+      
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+      }
+    body {
+    
+        font-family: "Inter",sans-serif;
+    }
+}
+
+
+*{
+  /* border:1px solid red; */
+}
